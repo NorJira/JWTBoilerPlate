@@ -1,20 +1,30 @@
 ﻿<Properties StartupConfiguration="{57B891DA-4A4D-4CB5-B9AE-86EFFE8CDDA9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="appsettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Helpers/AppSettings.cs">
     <Files>
       <File FileName="README.md" Line="8" Column="1" />
-      <File FileName="Helpers/DataContext.cs" Line="1" Column="1" />
-      <File FileName="appsettings.json" Line="21" Column="2" />
-      <File FileName="Startup.cs" Line="42" Column="1" />
-      <File FileName="Program.cs" Line="10" Column="1" />
+      <File FileName="Helpers/DataContext.cs" Line="24" Column="2" />
+      <File FileName="appsettings.json" Line="9" Column="36" />
+      <File FileName="Startup.cs" />
+      <File FileName="Program.cs" />
+      <File FileName="Services/AccountService.cs" Line="127" Column="1" />
+      <File FileName="Controllers/AccountsController.cs" Line="65" Column="1" />
+      <File FileName="Helpers/AuthorizeAttribute.cs" Line="1" Column="1" />
+      <File FileName="Helpers/AppSettings.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="WebApi" expanded="True">
             <Node name="WebApi" expanded="True">
-              <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="appsettings.json" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Helpers" expanded="True">
+                <Node name="AppSettings.cs" selected="True" />
+              </Node>
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Accounts" expanded="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -25,7 +35,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/nor_mac/VSTO2019src/JWTBoilerPlate/Controllers/AccountsController.cs" relfile="Controllers/AccountsController.cs" line="65" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
